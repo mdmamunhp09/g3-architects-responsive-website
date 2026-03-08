@@ -1,7 +1,54 @@
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 
-.work-sans{
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:400;
-  font-style: normal;
+/* shared style  */
+.display-flex {
+    display: flex;
+}
+
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* dark-2 */
+.text-dark {
+    color: #424242;
+}
+
+
+/* header style  */
+
+
+/* nav related style  */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.brand {
+    font-size: 2.6rem;
+}
+
+.links-item {
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
 }
