@@ -19,6 +19,26 @@
     color: #424242;
 }
 
+/* dark-3 */
+.text-light-dark {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+.primary-btn {
+    background-color: #FF900E;
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+
+
 
 /* header style  */
 
@@ -51,4 +71,32 @@
 .banner {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* banner related style  */
+.banner-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.banner-content {
+    max-width: 560px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* responsive media for header  */
+@media screen and (max-width:576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+    }
+    .banner-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
 }
